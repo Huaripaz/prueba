@@ -51,7 +51,18 @@ console.log(contarNumeros('taf987stfa556agdgq6784aa'));
 
 
 
+const fizzBuzz = (num:number):string | false => {
+    if (num % 3 === 0 && num % 5 === 0) {
+        return  'fizzbuzz';
+    } else if (num % 3 === 0) {
+        return 'fizz';
+    } else if (num % 5 === 0) {
+        return 'buzz';
+    }
+    return false;
+}
 
+fizzBuzz(6)
 
 type sexos = "M" | "F" | "LGQTB+"; // sirve para poner como varias opciones pero no es una variable es un "type"
 
@@ -67,4 +78,3 @@ const qsy:Dni = {
     edad:21,
     sexo:'M'
 }
-
