@@ -13,7 +13,7 @@ console.log(invertirCadena('Pato'));
 
 // Cuantas veces se repite un caracter
 function caracterRepetido(string:string):number {
-    let text:string = 'agfudijnfihaiwjbdftyvbihwbciusygeuydgucygnuwygyfbqbqrwrtyuiolkjhgfdsqwaassdafagajanvcm';
+    let text:string = 'agfudijnfihaiwjtyvbihwbciusygeuydgucygnuwygyfbqbqrwrtyuiolkjhgfdsqwaassdafagajanvcm';
     let repetido:number = 0;
     for (let i = 0; i < text.length; i++) {
         // if (string === text[i]) {
