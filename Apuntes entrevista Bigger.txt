@@ -1,0 +1,14 @@
+Rest Ful Api: https://www.youtube.com/watch?v=JD6VNRdGl98&ab_channel=LeonardoKuffo
+
+
+Los principios solid son un conjunto de cinco principios los cuales nos van a ayudar con el diseno y la organizacion de nuestras clases en la P.O (programacion orientada a objetos).
+
+1-Principio de responsabilidad unica: 
+Una clase solo debe hacer una cosa y solo debe tener una sola razon para cambiar.
+
+2-Principio Abierto-Cerrado: 
+Clases, modulos, funciones, etc debes estar abiertas (disponibles) para su extension pero cerradas para su modificacion.
+
+3-Principio de sustitucion de Liskov:
+
+

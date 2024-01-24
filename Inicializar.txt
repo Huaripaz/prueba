@@ -1,0 +1,35 @@
+-----------------------------
+inicializar un proyecto en TS
+-----------------------------
+
+npm init -y
+npm install typescript ts-node --save-dev
+npx tsc --init
+
+/tu-proyecto
+├── src
+│   ├── index.ts
+├── tsconfig.json
+├── package.json
+
+console.log("Hola, TypeScript!");
+
+"scripts": {
+  "start": "ts-node src/index.ts",
+  "build": "tsc"
+}
+
+npm start
+npm run build
+
+---------------------------------------
+inicializar un proyecto en React con TS
+---------------------------------------
+
+npx create-react-app nombre-del-proyecto --template typescript
+cd nombre-del-proyecto
+npm start
+
+
+
+

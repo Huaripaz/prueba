@@ -1,0 +1,11 @@
+Rest Full API
+SOLID
+Sheet
+Type Script
+Java Script
+React
+PostgreSQL
+NoSQL
+Node JS
+diferencias entre SQL y NoSQL
+jest
